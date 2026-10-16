@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_night">#0D1B2A</color>
+    <string name="app_name">TaskOnRecord</string>
+    <style name="Theme.TaskOnRecord" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/dark_night</item>
+    </style>
+</resources>

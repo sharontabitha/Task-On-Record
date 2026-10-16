@@ -1,0 +1,202 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.taskonrecord"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <!-- Notifications -->
+12    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+12-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:5:5-77
+12-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:5:22-74
+13    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+13-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:6:5-79
+13-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:6:22-76
+14    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+14-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:7:5-74
+14-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:7:22-71
+15    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+15-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:8:5-81
+15-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:8:22-78
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:9:5-66
+16-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:9:22-63
+17
+18    <permission
+18-->[androidx.core:core:1.15.0] C:\Users\MSI\.gradle\caches\8.14.5\transforms\9f5e59362f0b37f628bbf75a9ae30d3c\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+19        android:name="com.taskonrecord.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+19-->[androidx.core:core:1.15.0] C:\Users\MSI\.gradle\caches\8.14.5\transforms\9f5e59362f0b37f628bbf75a9ae30d3c\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+20        android:protectionLevel="signature" />
+20-->[androidx.core:core:1.15.0] C:\Users\MSI\.gradle\caches\8.14.5\transforms\9f5e59362f0b37f628bbf75a9ae30d3c\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+21
+22    <uses-permission android:name="com.taskonrecord.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+22-->[androidx.core:core:1.15.0] C:\Users\MSI\.gradle\caches\8.14.5\transforms\9f5e59362f0b37f628bbf75a9ae30d3c\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+22-->[androidx.core:core:1.15.0] C:\Users\MSI\.gradle\caches\8.14.5\transforms\9f5e59362f0b37f628bbf75a9ae30d3c\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+23
+24    <application
+24-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:11:5-50:19
+25        android:name="com.taskonrecord.TaskOnRecordApp"
+25-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:12:9-40
+26        android:allowBackup="true"
+26-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:13:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.15.0] C:\Users\MSI\.gradle\caches\8.14.5\transforms\9f5e59362f0b37f628bbf75a9ae30d3c\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+28        android:debuggable="true"
+29        android:extractNativeLibs="false"
+30        android:icon="@drawable/ic_notification"
+30-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:14:9-49
+31        android:label="@string/app_name"
+31-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:15:9-41
+32        android:roundIcon="@drawable/ic_notification"
+32-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:16:9-54
+33        android:supportsRtl="true"
+33-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:17:9-35
+34        android:theme="@style/Theme.TaskOnRecord" >
+34-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:18:9-50
+35        <activity
+35-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:20:9-29:20
+36            android:name="com.taskonrecord.MainActivity"
+36-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:21:13-41
+37            android:exported="true"
+37-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:22:13-36
+38            android:label="@string/app_name"
+38-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:23:13-45
+39            android:theme="@style/Theme.TaskOnRecord" >
+39-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:24:13-54
+40            <intent-filter>
+40-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:25:13-28:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:26:17-69
+41-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:26:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:27:17-77
+43-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:27:27-74
+44            </intent-filter>
+45        </activity>
+46
+47        <!-- Notification Receiver -->
+48        <receiver
+48-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:32:9-38:20
+49            android:name="com.taskonrecord.notification.TaskReminderReceiver"
+49-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:33:13-62
+50            android:exported="false" >
+50-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:34:13-37
+51            <intent-filter>
+51-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:35:13-37:29
+52                <action android:name="com.taskonrecord.ACTION_TASK_REMINDER" />
+52-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:36:17-80
+52-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:36:25-77
+53            </intent-filter>
+54        </receiver>
+55
+56        <!-- Boot receiver to reschedule alarms -->
+57        <receiver
+57-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:41:9-48:20
+58            android:name="com.taskonrecord.notification.BootReceiver"
+58-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:42:13-54
+59            android:exported="true"
+59-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:43:13-36
+60            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
+60-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:44:13-75
+61            <intent-filter>
+61-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:45:13-47:29
+62                <action android:name="android.intent.action.BOOT_COMPLETED" />
+62-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:46:17-79
+62-->C:\Users\MSI\Documents\TaskOnRecord\app\src\main\AndroidManifest.xml:46:25-76
+63            </intent-filter>
+64        </receiver>
+65
+66        <provider
+66-->[androidx.emoji2:emoji2:1.3.0] C:\Users\MSI\.gradle\caches\8.14.5\transforms\c351abbfd998ac2b071a5c7c375a1e65\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+67            android:name="androidx.startup.InitializationProvider"
+67-->[androidx.emoji2:emoji2:1.3.0] C:\Users\MSI\.gradle\caches\8.14.5\transforms\c351abbfd998ac2b071a5c7c375a1e65\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+68            android:authorities="com.taskonrecord.androidx-startup"
+68-->[androidx.emoji2:emoji2:1.3.0] C:\Users\MSI\.gradle\caches\8.14.5\transforms\c351abbfd998ac2b071a5c7c375a1e65\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+69            android:exported="false" >
+69-->[androidx.emoji2:emoji2:1.3.0] C:\Users\MSI\.gradle\caches\8.14.5\transforms\c351abbfd998ac2b071a5c7c375a1e65\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+70            <meta-data
+70-->[androidx.emoji2:emoji2:1.3.0] C:\Users\MSI\.gradle\caches\8.14.5\transforms\c351abbfd998ac2b071a5c7c375a1e65\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+71                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+71-->[androidx.emoji2:emoji2:1.3.0] C:\Users\MSI\.gradle\caches\8.14.5\transforms\c351abbfd998ac2b071a5c7c375a1e65\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+72                android:value="androidx.startup" />
+72-->[androidx.emoji2:emoji2:1.3.0] C:\Users\MSI\.gradle\caches\8.14.5\transforms\c351abbfd998ac2b071a5c7c375a1e65\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+73            <meta-data
+73-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\MSI\.gradle\caches\8.14.5\transforms\36e00af02ad0a97c35b706eef716226b\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+74                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+74-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\MSI\.gradle\caches\8.14.5\transforms\36e00af02ad0a97c35b706eef716226b\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+75                android:value="androidx.startup" />
+75-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\MSI\.gradle\caches\8.14.5\transforms\36e00af02ad0a97c35b706eef716226b\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+76            <meta-data
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\8.14.5\transforms\d3ab050876567f0a33da1443e9a97848\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+77                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\8.14.5\transforms\d3ab050876567f0a33da1443e9a97848\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+78                android:value="androidx.startup" />
+78-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\8.14.5\transforms\d3ab050876567f0a33da1443e9a97848\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+79        </provider>
+80
+81        <activity
+81-->[androidx.compose.ui:ui-test-manifest:1.7.6] C:\Users\MSI\.gradle\caches\8.14.5\transforms\54bbd04fdc36f74f433e957d955cd8bd\transformed\jetified-ui-test-manifest-1.7.6\AndroidManifest.xml:23:9-25:39
+82            android:name="androidx.activity.ComponentActivity"
+82-->[androidx.compose.ui:ui-test-manifest:1.7.6] C:\Users\MSI\.gradle\caches\8.14.5\transforms\54bbd04fdc36f74f433e957d955cd8bd\transformed\jetified-ui-test-manifest-1.7.6\AndroidManifest.xml:24:13-63
+83            android:exported="true" />
+83-->[androidx.compose.ui:ui-test-manifest:1.7.6] C:\Users\MSI\.gradle\caches\8.14.5\transforms\54bbd04fdc36f74f433e957d955cd8bd\transformed\jetified-ui-test-manifest-1.7.6\AndroidManifest.xml:25:13-36
+84        <activity
+84-->[androidx.compose.ui:ui-tooling-android:1.7.6] C:\Users\MSI\.gradle\caches\8.14.5\transforms\0e00d28fbb504deb084baf7aea152e04\transformed\jetified-ui-tooling-release\AndroidManifest.xml:23:9-25:39
+85            android:name="androidx.compose.ui.tooling.PreviewActivity"
+85-->[androidx.compose.ui:ui-tooling-android:1.7.6] C:\Users\MSI\.gradle\caches\8.14.5\transforms\0e00d28fbb504deb084baf7aea152e04\transformed\jetified-ui-tooling-release\AndroidManifest.xml:24:13-71
+86            android:exported="true" />
+86-->[androidx.compose.ui:ui-tooling-android:1.7.6] C:\Users\MSI\.gradle\caches\8.14.5\transforms\0e00d28fbb504deb084baf7aea152e04\transformed\jetified-ui-tooling-release\AndroidManifest.xml:25:13-36
+87
+88        <service
+88-->[androidx.room:room-runtime:2.6.1] C:\Users\MSI\.gradle\caches\8.14.5\transforms\68ee789bb5277afbd953b274e15de321\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+89            android:name="androidx.room.MultiInstanceInvalidationService"
+89-->[androidx.room:room-runtime:2.6.1] C:\Users\MSI\.gradle\caches\8.14.5\transforms\68ee789bb5277afbd953b274e15de321\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+90            android:directBootAware="true"
+90-->[androidx.room:room-runtime:2.6.1] C:\Users\MSI\.gradle\caches\8.14.5\transforms\68ee789bb5277afbd953b274e15de321\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+91            android:exported="false" />
+91-->[androidx.room:room-runtime:2.6.1] C:\Users\MSI\.gradle\caches\8.14.5\transforms\68ee789bb5277afbd953b274e15de321\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+92
+93        <receiver
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\8.14.5\transforms\d3ab050876567f0a33da1443e9a97848\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+94            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\8.14.5\transforms\d3ab050876567f0a33da1443e9a97848\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+95            android:directBootAware="false"
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\8.14.5\transforms\d3ab050876567f0a33da1443e9a97848\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+96            android:enabled="true"
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\8.14.5\transforms\d3ab050876567f0a33da1443e9a97848\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+97            android:exported="true"
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\8.14.5\transforms\d3ab050876567f0a33da1443e9a97848\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+98            android:permission="android.permission.DUMP" >
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\8.14.5\transforms\d3ab050876567f0a33da1443e9a97848\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+99            <intent-filter>
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\8.14.5\transforms\d3ab050876567f0a33da1443e9a97848\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+100                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\8.14.5\transforms\d3ab050876567f0a33da1443e9a97848\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\8.14.5\transforms\d3ab050876567f0a33da1443e9a97848\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+101            </intent-filter>
+102            <intent-filter>
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\8.14.5\transforms\d3ab050876567f0a33da1443e9a97848\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+103                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\8.14.5\transforms\d3ab050876567f0a33da1443e9a97848\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\8.14.5\transforms\d3ab050876567f0a33da1443e9a97848\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+104            </intent-filter>
+105            <intent-filter>
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\8.14.5\transforms\d3ab050876567f0a33da1443e9a97848\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+106                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\8.14.5\transforms\d3ab050876567f0a33da1443e9a97848\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\8.14.5\transforms\d3ab050876567f0a33da1443e9a97848\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+107            </intent-filter>
+108            <intent-filter>
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\8.14.5\transforms\d3ab050876567f0a33da1443e9a97848\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+109                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\8.14.5\transforms\d3ab050876567f0a33da1443e9a97848\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\MSI\.gradle\caches\8.14.5\transforms\d3ab050876567f0a33da1443e9a97848\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+110            </intent-filter>
+111        </receiver>
+112    </application>
+113
+114</manifest>

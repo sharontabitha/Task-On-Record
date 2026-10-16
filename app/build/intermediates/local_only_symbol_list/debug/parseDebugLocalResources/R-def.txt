@@ -1,0 +1,6 @@
+R_DEF: Internal format may change without notice
+local
+color dark_night
+drawable ic_notification
+string app_name
+style Theme.TaskOnRecord

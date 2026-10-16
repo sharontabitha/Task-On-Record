@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.7.3" type="partial_results">
+    <map id="NotificationPermission">
+        <entry
+            name="source"
+            boolean="true"/>
+    </map>
+    <map id="ScheduleExactAlarm">
+        <location id="0"
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/taskonrecord/notification/TaskScheduler.kt"
+            line="39"
+            column="9"
+            startOffset="1276"
+            endLine="43"
+            endColumn="10"
+            endOffset="1414"/>
+        <entry
+            name="ChecksExactAlarmPermission"
+            boolean="true"/>
+    </map>
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.taskonrecord.MainActivity"
+                    boolean="true"/>
+                <entry
+                    name="com.taskonrecord.notification.BootReceiver"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <entry
+            name="model"
+            string="color[dark_night(U)],drawable[ic_notification(U)],string[app_name(U)],style[Theme_TaskOnRecord(U)];3^0;;;"/>
+    </map>
+
+</incidents>

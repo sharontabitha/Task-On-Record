@@ -1,0 +1,8 @@
+<resources>
+    <!-- Base application theme for XML-based windows (splash screen, etc.) -->
+    <style name="Theme.TaskOnRecord" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/dark_night</item>
+    </style>
+</resources>
